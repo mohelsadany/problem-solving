@@ -1,7 +1,4 @@
-/**
- * @param {string} s
- * @return {boolean}
- */
+
  var isValid = function (inputString) {
     // Initialise an array to store the closing brackets expected
     let expectedBrackets = [];
@@ -27,10 +24,7 @@
     return !expectedBrackets.length;
 };
 
-/**
- * @param {string} s
- * @return {boolean}
- */
+
  var isValid = function(s) {
     var stack = [];
     var len = s.length;

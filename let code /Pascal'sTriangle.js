@@ -1,7 +1,4 @@
-/**
- * @param {number} numRows
- * @return {number[][]}
- */
+
 var generate = function(numRows) {
     let ans = new Array(numRows)
     for (let i = 0; i < numRows; i++) {

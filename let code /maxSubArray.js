@@ -1,7 +1,4 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
+
 var maxSubArray = function(nums) {
   var prev = 0;
   var max = -Infinity;

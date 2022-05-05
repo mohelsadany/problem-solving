@@ -1,7 +1,4 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
+
  var removeDuplicates = function(nums) {
     const length = nums.length;
     if (length <= 1){

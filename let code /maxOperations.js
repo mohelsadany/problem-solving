@@ -1,8 +1,4 @@
-/**
- * @param {number[]} nums
- * @param {number} k
- * @return {number}
- */
+
 var maxOperations = function(nums, k) {
     // [|1|, |2|, 3, 4, 5, 6, 6, 7, |8|, |9|, 10]
     // k = 10
