@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    }   
+    body{
+        background: #f2f2f2;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .container .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .container .row .col-1-of-2{
+        width: 50%;
+    }
+    .container .row .col-1-of-2 .heading{
+        font-size: 20px;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    /* create table style */
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 1px solid #ddd;
+    }
+    table tr{
+        border-bottom: 1px solid #ddd;
+    }
+    table tr:last-child{
+        border-bottom: none;
+    }
+    table tr:nth-child(even){
+        background: #f9f9f9;
+    }
+    table tr:nth-child(odd){
+        background: #fff;
+    }
+    table th{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+    }
+    table td{
+        font-size: 14px;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+    }
+    table td a{
+        color: #333;
+        text-decoration: none;
+    }
+    table td a:hover{
+        color: #333;
+        text-decoration: underline;
+    }
+    table td a:active{
+        color: #333;
+        text-decoration: underline;
+    }
+    table td a:focus{
+        color: #333;
+        text-decoration: underline;
+    }
+    table td a:visited{
+        color: #333;
+        text-decoration: underline;
+    }
+    table td a:hover{
+        color: #333;
+        text-decoration: underline;
+    }
+    table td a:active{
+        color: #333;
+        text-decoration: underline;
+    }
+
+    /* create table style */    
+    .container .row .col-1-of-2 .heading{
+        font-size: 20px;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    .container .row .col-1-of-2 .heading span{
+        font-size: 14px;
+        font-weight: 400;
+        color: #333;
+        margin-left: 10px;
+    }
+    .container .row .col-1-of-2 .heading span a{
+        color: #333;
+        text-decoration: none;
+    }
+    @media screen and (max-width: 768px){
+        .container .row .col-1-of-2 .heading span{
+            display: none;
+        }
+    }
+    .container .row .col-1-of-2 .heading span a:hover{
+        color: #333;
+        text-decoration: underline;
+        
+        
+    }

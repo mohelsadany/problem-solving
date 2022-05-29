@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+     <!-- create table users -->
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>Action</th>
+            </tr>
+            <?php foreach($users as $user): ?>
+            <tr>
+                <td><?php echo $user['id']; ?></td>
+                <td><?php echo $user['name']; ?></td>
+                <td><?php echo $user['email']; ?></td>
+                <td><?php echo $user['phone']; ?></td>
+                <td><?php echo $user['address']; ?></td>
+                <td>
+                    <a href="index.php?controller=user&action=edit&id=<?php echo $user['id']; ?>">Edit</a>
+                    <a href="index.php?controller=user&action=delete&id=<?php echo $user['id']; ?>">Delete</a>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+
+    </div>
+    
+</body>
+</html>
